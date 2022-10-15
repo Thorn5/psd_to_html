@@ -18,12 +18,151 @@ nav {
     color: darkred;
 }
 
+/* GLOBAL EXPERTIES SECTION STYLING */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alumni+Sans+Pinstripe&family=Roboto:wght@300&display=swap');
+
 #expertise-section {
-    color: fuchsia;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    box-sizing: border-box;
+    padding: 5% 15%;
 }
 
+/* EXPERTIES HEADER STYLING */
+.experties_header {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.experties_header p {
+    color: gray;
+    font-size: larger;
+}
+
+/* OUR EXPERTIES STYLING */
+.our_experties p {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.our_experties article {
+    padding: 20px;
+}
+
+.our_experties h4 {
+    padding: 9px 0 9px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row-1 {
+    display: flex;
+    text-align: center;
+    border-bottom: 0.8px solid rgb(216, 214, 214);
+}
+
+.row-2 {
+    display: flex;
+    text-align: center;
+}
+
+.border {
+    border-right: 0.8px solid rgb(216, 214, 214);
+}
+
+/* GLOBAL TEAM SECTION STYLING */
 #team-section {
-    color: yellowgreen;
+    margin: 0;
+    padding: 5% 0;
+    line-height: 1.6;
+    box-sizing: border-box;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-image: url(../photoshop/design-assets/bgk-header.png);
+    background-size: 100% 100%;
+    color: white;
+}
+
+/* TEAM HEADER STYLING */
+.teamHeader {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+/* TEAM PICTURES STYLING */
+.teamPictures {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.team {
+    width: 229px;
+    border: 0.8px solid rgb(184, 182, 182);
+}
+
+.team h4 {
+    font-weight: 500;
+}
+
+.team p {
+    color: gray;
+    font-size: smaller;
+}
+.teammateName {
+    padding: 15px 0;
+}
+.picture {
+    height: 229px;
+    background-color: white;
+}
+
+/* WE ARE HIRING STYLING */
+.weAreHiring {
+    text-align: center;
+    padding: 45px;
+}
+
+.weAreHiring p {
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.weAreHiring button {
+    color: rgba(0, 224, 208, 1);
+    border: rgba(0, 224, 208, 1) 0.8px solid;
+    border-radius: 5px;
+    padding: 10px;
+    background: transparent;
+}
+
+.weAreHiring button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* EXTRAS */
+.hrExpertis {
+    width: 5%;
+    margin-left: 47.5%;
+    color: black;
+    border: solid 1px rgba(65, 61, 75, 1);
+    margin-top: 10px;
+    opacity: 0.3;
+}
+
+hr {
+    width: 5%;
+    margin-left: 47.5%;
+    color: black;
+    border: solid 1px rgba(255, 255, 255, 1);
+    margin-top: 10px;
+    opacity: 0.2;
 }
 
 #contact-client-section {

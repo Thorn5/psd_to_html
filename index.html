@@ -6,12 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PSD to HTML Transform</title>
     <link rel="stylesheet" href="src\script.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@400;700;900&family=Roboto:wght@100;300;900&display=swap" rel="stylesheet">
     <script src="src\javascript.js"></script>
 </head>
 <body>
     <header>
-        <nav>navigation</nav>
-        <section id="hero-section">hero section</section>
+        <div class="navHeroGrid">
+            <div class="logoContainer">
+                <div class="logo"><img src="photoshop\design-assets\png\logo.png" alt="logo"> </div>
+                <div class="logoText">tajam</div>
+            </div>
+            <nav class="navFlex">
+                <div class="navFlexItem"><a href="#hero-section">HOME</a></div>
+                <div class="navFlexItem"><a href="#our-story-section">ABOUT</a></div>
+                <div class="navFlexItem"><a href="#expertise-section">EXPERTISE</a></div>
+                <div class="navFlexItem"><a href="#team-section">TEAMS</a></div>
+                <div class="navFlexItem"><a href="#">WORKS</a></div>
+                <div class="navFlexItem"><a href="#">PEOPLE SAY</a></div>
+                <div class="navFlexItem"><a href="#contact-client-section">CONTACT</a></div>
+            </nav>
+            <section class="heroGrid" id="hero-section">
+                <div class="heroFlexItem_1"><h1>We Are Awesome Creative Agency</h1></div>
+                <div class="heroFlexItem_2"><hr></div>
+                <div class="heroFlexItem_3"><p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p></div>
+                <button class="heroFlexItem_4">LEARN MORE</button>
+            </section>
+        </div>
     </header>
     <main>
         <section id="our-story-section">our story section</section>

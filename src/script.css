@@ -8,8 +8,6 @@ header{
     height: 672px;
 }
 
-nav {}
-
 nav a {
     color: white;
 }
@@ -32,6 +30,7 @@ nav a:visited {
     padding-top: 16px;
     justify-items: center;
     align-items: center;
+    background-color: rgba(49,41,83, 0.88);
 }
 
 .logoContainer {

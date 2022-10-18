@@ -418,10 +418,16 @@
   .btn-primary:hover {
     background-color: var(--color-blue-2);
   }
-  .bg-img {
-    background-image: url(image/bgk-footer.png);
+  .bg-img-f {
+    background-image: url(photoshop/design-assets/bgk-footer.png);
     background-repeat: no-repeat;
   }
+  .bg-img-m {
+    background-image: url(photoshop/design-assets/bgk-middle.png);
+    background-repeat: no-repeat;
+  }
+  .font-family{font-family: 'Roboto', sans-serif;}
+
   /* // X-Small devices (portrait phones, less than 576px)
   // No media query for `xs` since this is the default in Bootstrap */
 

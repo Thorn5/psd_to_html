@@ -30,7 +30,7 @@ nav a:visited {
     padding-top: 16px;
     justify-items: center;
     align-items: center;
-    background-color: rgba(49,41,83, 0.88);
+    background-color: rgba(49,41,83, 0.93);
 }
 
 .logoContainer {
@@ -72,18 +72,19 @@ nav a:visited {
 
 .navFlexItem {
     display: inline-flex;
-    padding-right: 12px;
+    padding-right: 25px;
     color: white;
 }
 
 .heroGrid {
     display: grid;
     grid-area: hero;
-    /* grid-template-rows: 163px auto 19px auto 29px auto 48px auto 207px; */
-    grid-template-rows: 40% auto 19px auto 29px auto 48px auto ;
+    grid-template-rows: 150px auto 19px auto 29px auto 48px auto 30% ;
     padding-top: 66px;
     justify-items: center;
     color: white;
+    height: 606px;
+    overflow: hidden;
 }
 
 .heroFlexItem {
@@ -97,6 +98,7 @@ nav a:visited {
     font-family: 'Playfair Display', serif;
     font-size: 32px;
     font-weight: 900;
+    text-align: center;
 }
 
 .heroFlexItem_2 {

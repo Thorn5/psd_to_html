@@ -404,17 +404,6 @@
   }
 
 
-  .btn {
-    padding: calc(2 * var(--padding-base)) calc(4 * var(--padding-base));
-
-    border-radius: calc(4 * var(--padding-base));
-  }
-  .btn-primary {
-    background-color: var(--color-blue-4);
-    color: var(--color-white);
-    transition: all 300ms;
-  }
-
   .btn-primary:hover {
     background-color: var(--color-blue-2);
   }
@@ -427,6 +416,15 @@
     background-repeat: no-repeat;
   }
   .font-family{font-family: 'Roboto', sans-serif;}
+  .box {
+    border-style: solid;
+    height: 30px;
+    width: 150px;
+    outline: 2px;
+    background-color:#f9f9f9; opacity:30%;
+  }
+
+  .box-2{border-style: solid;border-color: #ffffff; background-color:#f9f9f9; opacity:30%; width: 30px;height: 30px; ;}
 
   /* // X-Small devices (portrait phones, less than 576px)
   // No media query for `xs` since this is the default in Bootstrap */

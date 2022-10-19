@@ -148,8 +148,6 @@ nav a:visited {
 }
 
 /* GLOBAL EXPERTIES SECTION STYLING */
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alumni+Sans+Pinstripe&family=Roboto:wght@300&display=swap');
-
 #expertise-section {
     margin: 0;
     padding: 0;
@@ -163,16 +161,23 @@ nav a:visited {
     text-align: center;
     padding-bottom: 40px;
 }
-
+.experties_header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: bold;
+}
 .experties_header p {
     color: gray;
-    font-size: larger;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 /* OUR EXPERTIES STYLING */
 .our_experties p {
     color: gray;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 14px;
 }
 
 .our_experties article {
@@ -181,7 +186,8 @@ nav a:visited {
 
 .our_experties h4 {
     padding: 9px 0 9px 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-black', sans-serif;
+    font-size: 14px;
 }
 
 .row-1 {
@@ -218,14 +224,24 @@ nav a:visited {
     padding-bottom: 40px;
     color: #fff;
 }
-
+.teamHeader h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.teamHeader p {
+    color: #F9F9F9;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.7;
+}
 /* TEAM PICTURES STYLING */
 .teamPictures {
     display: flex;
     justify-content: center;
     text-align: center;
     gap: 15px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .team {
@@ -234,12 +250,15 @@ nav a:visited {
 }
 
 .team h4 {
-    font-weight: 500;
+    font-family: 'Roboto-black', sans-serif;
+    font-size: 14px;
 }
 
 .team p {
-    color: gray;
-    font-size: smaller;
+    color: #FAFAFA;
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 13px;
+    opacity: 0.7;
 }
 .teammateName {
     padding: 15px 0;
@@ -257,17 +276,19 @@ nav a:visited {
 
 .weAreHiring p {
     padding-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-size: smaller;
-    font-weight: lighter;
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 14px;
+    color: #F3F3F3;
 }
 
 .weAreHiring button {
     color: rgba(0, 224, 208, 1);
     border: rgba(0, 224, 208, 1) 0.8px solid;
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 10px;
     background: transparent;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
 }
 
 .weAreHiring button:hover {

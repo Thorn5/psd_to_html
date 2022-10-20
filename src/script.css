@@ -319,6 +319,8 @@ hr {
 
 footer {
     color: blueviolet;
+
+/* Shima's Section */
     }
     :root {
         --color-white: #ffffff;
@@ -749,3 +751,131 @@ footer {
       }
     
       .box-2{border-style: solid;border-color: #ffffff; background-color:#f9f9f9; opacity:30%; width: 30px;height: 30px; ;}
+
+      /* end Shima's section */
+
+      /* Stephanie's section */
+      @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@700&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.our-story-section h1, .contact-client-section h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  padding-bottom: ;
+}
+
+.container {
+  width: 943px;
+  margin: auto;
+  padding: 70px 0px;
+}
+
+.pyramid-logo {
+  margin-left: 50px;
+}
+
+
+.our-story-text{
+  margin-left: 100px;
+  max-width: 540px;
+}
+
+.our-story-text p, .our-story-text .title {
+  padding-bottom: 20px;
+
+}
+
+.our-story-text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #413D4B;
+  line-height: 20px;
+}
+
+.our-story-section .title,
+.contact-client-section .title,
+.clients .title {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.reviews-form,
+.our-story-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.button {
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #00e0d0;
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid #00e0d0;
+  padding: 14px 30px;
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 13px;
+}
+
+.our-story-section .container,
+.contact-client-section .container {
+  display: flex;
+  justify-content: space-between;  
+  align-items: flex-start;
+}
+
+.reviews .title {
+  padding-bottom: 37px;
+}
+
+input, textarea {
+  padding: 15px 0 15px 23px;
+  border: 1px solid #ACABB1;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 20px;
+}
+
+.logos-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 47px;
+  align-items: center;
+  justify-content: center;
+  grid-row-gap: 34px;
+  grid-column-gap: 60px;
+}
+
+.logo{
+  justify-self: center;
+  align-self:center;
+}
+
+.logo.zara {
+  max-width: 162px;
+}
+
+.reviews {
+  max-width: 427px;
+}
+
+textarea {
+  min-height: 203px;
+}
+
+/* end Stephanie's section */

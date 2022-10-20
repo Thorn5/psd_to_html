@@ -408,11 +408,11 @@
     background-color: var(--color-blue-2);
   }
   .bg-img-f {
-    background-image: url(photoshop/design-assets/bgk-footer.png);
+    background-image: url(../photoshop/design-assets/bgk-footer.png);
     background-repeat: no-repeat;
   }
   .bg-img-m {
-    background-image: url(photoshop/design-assets/bgk-middle.png);
+    background-image: url(../photoshop/design-assets/bgk-middle.png);
     background-repeat: no-repeat;
   }
   .font-family{font-family: 'Roboto', sans-serif;}
@@ -425,32 +425,3 @@
   }
 
   .box-2{border-style: solid;border-color: #ffffff; background-color:#f9f9f9; opacity:30%; width: 30px;height: 30px; ;}
-
-  /* // X-Small devices (portrait phones, less than 576px)
-  // No media query for `xs` since this is the default in Bootstrap */
-
-  /* // Small devices (landscape phones, 576px and up) */
-  @media (min-width: 576px) {
-  }
-
-  /* // Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) {
-  }
-
-  /* // Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
-    .d-lg-none {
-      display: none;
-    }
-    .d-lg-flex {
-      display: flex;
-    }
-  }
-
-  /* // X-Large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {
-  }
-
-  /* // XX-Large devices (larger desktops, 1400px and up) */
-  @media (min-width: 1400px) {
-  }

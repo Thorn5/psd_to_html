@@ -6,18 +6,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PSD to HTML Transform</title>
     <link rel="stylesheet" href="src\script.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@400;700;900&family=Roboto:wght@100;300;700;900&display=swap" rel="stylesheet">
     <script src="src\javascript.js"></script>
 </head>
 <body>
     <header>
-        <nav>navigation</nav>
-        <section id="hero-section">hero section</section>
+        <div class="navGrid">
+            <div class="logoContainer">
+                <div class="logo"><img src="photoshop\design-assets\png\logo.png" alt="logo"> </div>
+                <div class="logoText">tajam</div>
+            </div>
+            <nav class="navFlex">
+                <div class="navFlexItem"><a href="#hero-section">HOME</a></div>
+                <div class="navFlexItem"><a href="#our-story-section">ABOUT</a></div>
+                <div class="navFlexItem"><a href="#expertise-section">EXPERTISE</a></div>
+                <div class="navFlexItem"><a href="#team-section">TEAMS</a></div>
+                <div class="navFlexItem"><a href="#">WORKS</a></div>
+                <div class="navFlexItem"><a href="#">PEOPLE SAY</a></div>
+                <div class="navFlexItem"><a href="#contact-client-section">CONTACT</a></div>
+            </nav>
+        </div>
+        <section class="heroGrid" id="hero-section">
+            <div class="heroFlexItem_1"><h1>We Are An Awesome Creative Agency</h1></div>
+            <div class="heroFlexItem_2"><hr></div>
+            <div class="heroFlexItem_3"><p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p></div>
+            <button class="heroFlexItem_4">LEARN MORE</button>
+        </section>
     </header>
     <main>
         <section id="our-story-section">our story section</section>
         <section id="watch-section">watch section</section>
-        <section id="expertise-section">expertise section</section>
-        <section id="team-section">team section</section>
+        <!-- EXPERTIS SECTION -->
+        <section id="expertise-section">
+            <div class="experties_header">
+                <h2>EXPERTIS</h2>
+                <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+                <hr class="hrExpertis">
+            </div>
+            <div class="our_experties">
+                <div class="row-1">
+                    <article class="webdesign&dev border">
+                        <img src="./photoshop/design-assets/png/screen.png" alt="">
+                        <h4>WEB DESIGN & DEVELOPMENT</h4>
+                        <p>This is Photoshop's wersion of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                    </article>
+                    <article class="branding_identity border">
+                        <img src="./photoshop/design-assets/png/pen.png" alt="">
+                        <h4>BRANDING IDENTITY</h4>
+                        <p>This is Photoshop's wersion of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                    </article>
+                    <article class="mobileapp">
+                        <img src="./photoshop/design-assets/png/mobile.png" alt="">
+                        <h4>MOBILE APP</h4>
+                        <p>This is Photoshop's wersion of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                    </article>
+                </div>
+                <div class="row-2">
+                    <article class="searchengineoptimization border">
+                        <img src="./photoshop/design-assets/png/graph.png" alt="">
+                        <h4>SEARCH ENGINE OPTIMIZATION</h4>
+                        <p>This is Photoshop's wersion of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                    </article>
+                    <article class="gamedevelopment border">
+                        <img src="./photoshop/design-assets/png/gameboy.png" alt="">
+                        <h4>GAME DEVELOPMENT</h4>
+                        <p>This is Photoshop's wersion of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                    </article>
+                    <article class="madewithlove">
+                        <img src="./photoshop/design-assets/png/heart.png" alt="">
+                        <h4>MADE WITH LOVE</h4>
+                        <p>This is Photoshop's wersion of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- TEAM SECTION -->
+        <section id="team-section">
+            <div class="teamHeader">
+                <h2>MEET OUR AMAZING TEAM</h2>
+                <p>Lorem ipsum dolot sit amet proin gravida nibh vel velit</p>
+                <hr>
+            </div>
+            <div class="teamPictures">
+                <div class="team">
+                    <div class="picture"></div>
+                    <div class="teammateName">
+                        <h4>SEMF UCUK</h4>
+                        <p>CEO & FOUNDER</p>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="picture"></div>
+                    <div class="teammateName">
+                        <h4>DIK ADALIN</h4>
+                        <p>ENGINEERING</p>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="picture"></div>
+                    <div class="teammateName">
+                        <h4>JENG KOL</h4>
+                        <p>DESIGNER</p>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="picture"></div>
+                    <div class="teammateName">
+                        <h4>PET ROMAK</h4>
+                        <p>MARKETING</p>
+                    </div>
+                </div>
+            </div>
+            <div class="weAreHiring">
+                <p>Become part of our dream team, let's join us!</p>
+                <button>WE ARE HIRING</button>
+            </div>
+        </section>
         <section id="contact-client-section">contact client section</section>
     </main>
     <footer>footer</footer>
